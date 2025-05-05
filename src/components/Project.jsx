@@ -1,12 +1,13 @@
 import React from 'react';
+import spotify from '../assets/img/spotify.png'
 
 const projects = [
   {
     title: 'Spotify Clone',
     description: 'A responsive music app clone using React, Tailwind CSS, and React Bootstrap.',
     techStack: ['React', 'Tailwind CSS', 'JavaScript'],
-    link: 'https://your-project-link.com',
-    image: 'https://via.placeholder.com/400x200', // Replace with your image URL or import
+    link: 'https://golden-dieffenbachia-bc9f37.netlify.app/',
+    image: spotify, // Replace with your image URL or import
   },
   {
     title: 'Blog Website',

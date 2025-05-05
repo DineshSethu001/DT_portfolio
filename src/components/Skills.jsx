@@ -1,9 +1,16 @@
 import React from 'react';
 
 export default function Skills() {
-  const skills = [
-    "HTML5", "CSS3", "JavaScript", "React", "Tailwind CSS", 
-    "Git & GitHub", "Figma", "Responsive Design", "REST APIs"
+  const skillsWithColors = [
+    { name: "HTML5", color: "bg-orange-500 text-white" },
+    { name: "CSS3", color: "bg-blue-500 text-white" },
+    { name: "JavaScript", color: "bg-yellow-300 text-black" },
+    { name: "React", color: "bg-cyan-400 text-white" },
+    { name: "Tailwind CSS", color: "bg-teal-300 text-black" },
+    { name: "Git & GitHub", color: "bg-gray-800 text-white" },
+    { name: "Figma", color: "bg-pink-500 text-white" },
+    { name: "Responsive Design", color: "bg-green-400 text-white" },
+    { name: "REST APIs", color: "bg-indigo-400 text-white" },
   ];
 
   return (
@@ -15,12 +22,12 @@ export default function Skills() {
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-          {skills.map((skill, index) => (
+          {skillsWithColors.map((skill, index) => (
             <span
               key={index}
-              className="bg-gray-100 border border-gray-300 px-4 py-2 rounded shadow-sm hover:bg-blue-100 transition"
+              className={`px-4 py-2 rounded shadow-sm transition hover:scale-105 ${skill.color}`}
             >
-              {skill}
+              {skill.name}
             </span>
           ))}
         </div>

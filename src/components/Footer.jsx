@@ -4,7 +4,7 @@ import { MdAlternateEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#393E46] text-white w-full py-6 mt-auto">
+    <footer className="bg-[#393E46]  w-full py-6 mt-auto">
       <div className="container mx-auto flex flex-col gap-6 px-4 md:px-8">
 
         {/* Navigation Links */}
@@ -12,7 +12,6 @@ export default function Footer() {
           <a href="#about" className="hover:underline">About</a>
           <a href="#projects" className="hover:underline">Projects</a>
           <a href="#blog" className="hover:underline">Blog</a>
-          <a href="#resume" className="hover:underline">Resume</a>
           <a href="#contact" className="hover:underline">Contact</a>
         </nav>
 

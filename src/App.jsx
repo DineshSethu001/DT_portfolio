@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div className="min-h-screen flex items-center justify-center flex-col bg-[#3A0519]">
       <Header />
-      <About />
+     <About />
       <Skills />
       <Project />
       <Contact />

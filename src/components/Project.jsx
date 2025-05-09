@@ -1,27 +1,11 @@
 import React from 'react';
-import spotify from '../assets/img/spotify.png'
+import {projects} from '../assets/assets.js'
 
-const projects = [
-  {
-    title: 'Spotify Clone',
-    description: 'A responsive music app clone using React, Tailwind CSS, and React Bootstrap.',
-    techStack: ['React', 'Tailwind CSS', 'JavaScript'],
-    link: 'https://golden-dieffenbachia-bc9f37.netlify.app/',
-    image: spotify, // Replace with your image URL or import
-  },
-  {
-    title: 'Blog Website',
-    description: 'A dynamic blog platform built with React and Vite.',
-    techStack: ['React', 'Vite', 'CSS'],
-    link: 'https://your-project-link.com',
-    image: 'https://via.placeholder.com/400x200',
-  },
-  // Add more projects here
-];
+
 
 export default function Projects() {
   return (
-    <section id="projects" className="w-full bg-gray-50 text-gray-900 py-12 px-4 md:px-12">
+    <section id="projects" className="w-full  text-gray-900 py-12 px-4 md:px-12">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-10">Projects</h2>
         <div className="grid gap-8 md:grid-cols-2">

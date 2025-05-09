@@ -1,20 +1,11 @@
 import React from 'react';
+import {skillsWithColors}  from '../assets/assets'
 
 export default function Skills() {
-  const skillsWithColors = [
-    { name: "HTML5", color: "bg-orange-500 text-white" },
-    { name: "CSS3", color: "bg-blue-500 text-white" },
-    { name: "JavaScript", color: "bg-yellow-300 text-black" },
-    { name: "React", color: "bg-cyan-400 text-white" },
-    { name: "Tailwind CSS", color: "bg-teal-300 text-black" },
-    { name: "Git & GitHub", color: "bg-gray-800 text-white" },
-    { name: "Figma", color: "bg-pink-500 text-white" },
-    { name: "Responsive Design", color: "bg-green-400 text-white" },
-    { name: "REST APIs", color: "bg-indigo-400 text-white" },
-  ];
+  
 
   return (
-    <section id="skills" className="bg-white w-full text-gray-800 py-12 px-4 md:px-12">
+    <section id="skills" className="skill w-full text-gray-800 py-12 px-4 md:px-12">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6">My Skills</h2>
         <p className="mb-8 text-sm md:text-base">

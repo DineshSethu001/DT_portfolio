@@ -1,4 +1,6 @@
 import spotify from '../assets/img/spotify.png'
+import hotel from '../assets/img/hotel.png'
+import news from '../assets/img/news.png'
  
 
 // Skills section
@@ -26,11 +28,26 @@ export const projects = [
       image: spotify, // Replace with your image URL or import
     },
     {
+      title: 'Hotel Booking App',
+      description: 'Integrated user authentication using Clerk, leveraging its built-in APIs for a seamless sign-up and login experience. For UI components, particularly forms, used PrebuiltUI to ensure clean and responsive design with minimal custom styling.',
+      techStack: ['React', 'Vite', 'CSS'],
+      link: 'https://your-project-link.com',
+      image:  hotel,
+    },
+    {
       title: 'Blog Website',
       description: 'A dynamic blog platform built with React and Vite.',
       techStack: ['React', 'Vite', 'CSS'],
       link: 'https://your-project-link.com',
       image: 'https://via.placeholder.com/400x200',
+    },
+     {
+      title: 'News Application',
+      description: 'A responsive web application built with React that fetches and displays the latest news articles from various categories using the [News API](https://newsapi.org)',
+
+      techStack: ['React', 'Vite', 'Bootstrap'],
+      link: 'https://your-project-link.com',
+      image: news,
     },
     // Add more projects here
   ];
